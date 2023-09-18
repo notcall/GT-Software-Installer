@@ -44,7 +44,7 @@ if  RouteSelect == '0' or RouteSelect == '1' or RouteSelect == '2' or RouteSelec
         os.system('cls')
         done = input("If not, please try again (r) otherwise, you may exit (enter)! \n")
         if done == 'r':
-            webbrowser.open_new("https://www.oculus.com/download_app/?id=1582076955407037&utm_source=www.google.com")
+            webbrowser.open_new("https://github.com/DeadlyKitten/MonkeModManager/releases/download/1.3.1/MonkeModManager.exe")
             exit = input("Retrying... Please check your Web Browser")
         else:
             os.system('cls')
